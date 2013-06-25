@@ -71,11 +71,12 @@ Build
 $ make
 ```
 
+
 Run
 ---
 
 ```shell
-python
+$ python
 ```
 
 ```python
