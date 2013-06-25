@@ -67,35 +67,35 @@ Requirements
 Build
 -----
 
-    ```shell
-    $ make
-    ```
+```shell
+$ make
+```
 
 Run
 ---
 
-    ```shell
-    python
-    ```
+```shell
+python
+```
 
-    ```python
-    # By-hand module
-    import dictlite as dl
-    d1 = dl.Dictlite()
-    d1['a'] = 1
-    d1[2] = 'b'
-    d1['c'] = 3
-    len(d1)  # 3
-    d1[2]  # 'b'
-    4 in d1  # False
-    'a' in d1  # True
+```python
+# By-hand module
+import dictlite as dl
+d1 = dl.Dictlite()
+d1['a'] = 1
+d1[2] = 'b'
+d1['c'] = 3
+len(d1)  # 3
+d1[2]  # 'b'
+4 in d1  # False
+'a' in d1  # True
 
-    # Swig-generated module
-    import dictlite_swig as dls
-    d2 = dls.Dictlite()
-    len(d2)  # 0
-    # Other methods do not work; Swig interface incomplete
-    ```
+# Swig-generated module
+import dictlite_swig as dls
+d2 = dls.Dictlite()
+len(d2)  # 0
+# Other methods do not work; Swig interface incomplete
+```
 
 
 Copyright (c) 2013 Aubrey Barnard.  This is free software.  See
