@@ -1,0 +1,11 @@
+# Copyright (c) 2013 Aubrey Barnard.  This is free software.  See
+# LICENSE.txt for details.
+
+*~
+*.o
+*.so
+*.pyc
+dictlite_swig.py
+dictlite_swig_wrap.c
+main
+build
